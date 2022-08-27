@@ -1,12 +1,11 @@
 import {useEffect, useState} from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
 import axios from "axios";
 
 function App() {
   const [engagements, setEngagements] = useState([])
     useEffect(()=>{
-        axios.get('https://community-engagement.herokuapp.com/api/organizations')
+        axios.get('https://community-engagement.herokuapp.com/api/engagements')
             .then(({data})=> setEngagements(data.data))
     },[])
   return (
