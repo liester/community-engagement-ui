@@ -1,10 +1,14 @@
 import './Login.css'
+import FlexContainer from "../common/flexcontainer/FlexContainer";
 
 function Login() {
   return (
-    <div>
-        Login Component
-    </div>
+    <FlexContainer>
+        <div>
+            Left
+        </div>
+        <div>Right</div>
+    </FlexContainer>
   )
 }
 
