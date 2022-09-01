@@ -1,0 +1,29 @@
+.loginContainer {
+  width: 800px;
+  height: 700px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.right {
+  background-color: #1f28eb;
+  color: white;
+  font-size: 70px;
+  height: 100%;
+}
+
+
+.left {
+  background-color: white;
+  color: white;
+  height: 100%;
+}
+
+.welcomeText {
+  color: black;
+  font-size: 40px;
+}
+
+.authenticationInputs {
+  width: 200px;
+}
